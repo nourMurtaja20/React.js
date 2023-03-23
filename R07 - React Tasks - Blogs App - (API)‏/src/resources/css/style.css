@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.content-wrapar {
+  display: flex;
+  flex-direction: column;
+  padding: 59px 145px 0px 145px;
+  font-size: 35px;
+}
+.content-wrapar > span {
+  font-size: 1em;
+  margin-top: 30px;
+}
+hr {
+  width: 100%;
+  margin-bottom: 50px;
+  /* border: 0.5px solid #34376E; */
+}
+.section-row {
+  display: flex;
+  flex-direction: row;
+}
+.article-column {
+  display: flex;
+  flex-direction: column;
+}
+.article-column > section > span:first-of-type {
+  color: #ff974a;
+  background-color: #fff4ec;
+  padding: 11px 23px 11px 11px;
+  border-radius: 8px;
+  font-size: 0.4em;
+  margin-right: 15px;
+}
+.article-column > section > span:last-of-type {
+  color: #8e8e8e;
+  font-size: 0.4em;
+}
+.article-column > span {
+  color: #1d968d;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+.article-column > p {
+  font-size: 0.6em;
+  padding-bottom: 54px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .section-row {
+    flex-wrap: wrap;
+  }
+  figure {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .content-wrapar {
+    padding: 39px 50px 0px 50px;
+  }
+  .content-wrapar > span {
+    font-size: 0.5em;
+}
+  .article-column > span {
+    font-size: 0.5em;
+    padding-bottom: 25px;
+  }
+  .article-column > p {
+    font-size: 0.4em;
+    padding-bottom: 34px;
+  }
+  img {
+    width: 100%;
+    min-width: 250px;
+  }
+
+}

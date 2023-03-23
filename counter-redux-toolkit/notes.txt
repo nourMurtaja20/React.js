@@ -1,0 +1,9 @@
+New Redux:
+    - Packages
+        - npm install react-redux
+        - npm install @reduxjs/toolkit
+    - Consists of:
+        - Redux Store
+            - can have multiple reducers
+        - Slice
+            - Contains the state and reducer (actions)

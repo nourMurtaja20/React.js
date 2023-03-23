@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+/* body {
+  background-color: #80858b;
+} */
+.section1 {
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+.div_span  {
+  color: #1d968d;
+  font-size: 18px;
+  padding-left: 40px;
+}
+.div_i {
+  color: #92929d;
+  font-size: 18px;
+  padding: 30px;
+  padding-left: 865px;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
+.label-file {
+  display: flex;
+  border: 1px dashed #b4b6c4;
+  border-radius: 6px;
+  color: #000000;
+  font-size: 18px;
+  padding: 37px;
+  margin-left: 40px;
+  margin-right: 80%;
+  justify-content: center;
+}
+.label_i {
+  border: 1px solid #b4b6c4;
+  color: #b4b6c4;
+  border-radius: 6px;
+}
+label > input {
+  display: none;
+}
+.input_name {
+  border: 0.5px solid #b4b6c4;
+  border-radius: 6px;
+  outline: none;
+  color: #b4b6c4;
+  font-size: 16px;
+  margin: 10px 0px 25px 40px;
+  padding: 12px 250px 11px 20px;
+}
+.input_name::placeholder {
+  color: #b4b6c4;
+  font-size: 16px;
+}
+.form_article {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.article_div {
+  display: flex;
+  flex-direction: column;
+  column-gap: 30px;
+}
+.div_label {
+  font-size: 18px;
+  color: #000000;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.select1 {
+  border: 0.5px solid #b4b6c4;
+  border-radius: 6px;
+  margin-left: 40px;
+  margin-top: 12px;
+  margin-bottom: 70px;
+  padding: 10px;
+  outline-color: #b4b6c4;
+  color: #707683;
+}
+.select1::placeholder {
+  color: #707683;
+}
+.label_desc {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 0px;
+}
+.textarea1 {
+  height: 365px;
+  font-size: 16px;
+  color: #b4b6c4;
+  padding: 12px 270px 0px 20px;
+  border: 0.5px solid #b4b6c4;
+  border-radius: 6px;
+  outline: none;
+  resize: none;
+  margin-right: 50px;
+}
+.textarea1::placeholder {
+  color: #b4b6c4;
+}
+.cancel {
+  background-color: #f4f4f4;
+  color: #000000;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 40px;
+  margin-right: 355px;
+  margin-bottom: 65px;
+  padding: 11px 140px;
+}
+.done {
+  background-color: #1d968d;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  padding: 11px 140px;
+}

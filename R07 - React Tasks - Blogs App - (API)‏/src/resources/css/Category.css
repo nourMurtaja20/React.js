@@ -1,0 +1,111 @@
+.div-category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  border: 1px solid #e2e2ea;
+  padding: 20px 0px 39px 20px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+.div-design {
+  display: flex;
+  flex-direction: column;
+  background-color: #eef5f5;
+  border-radius: 20px;
+  padding: 25px 30px 22px 20px;
+  width: 22%;
+  min-width: 240px;
+}
+.div-design > span:first-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #1d968d;
+  font-size: 22px;
+}
+.div-design > span:first-of-type > i,
+.div-development > span:first-of-type > i,
+.div-Medical > span:first-of-type > i,
+.div-Motion > span:first-of-type > i {
+  width: 38px;
+  height: 38px;
+  background-color: #e4f0f0;
+  border: 0.25px solid #1d968d;
+  padding: 7px;
+  color: #92929d;
+  border-radius: 6px;
+}
+.div-design > span:last-of-type,
+.div-development > span:last-of-type,
+.div-Medical > span:last-of-type,
+.div-Motion > span:last-of-type {
+  font-size: 14px;
+  color: #6f6f6f;
+}
+.div-development {
+  display: flex;
+  flex-direction: column;
+  background-color: #faf5f2;
+  border-radius: 20px;
+  padding: 25px 30px 22px 20px;
+  width: 22%;
+  min-width: 240px;
+}
+.div-development > span:first-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ff974a;
+  font-size: 22px;
+}
+.div-Medical {
+  display: flex;
+  flex-direction: column;
+  background-color: #edf3f8;
+  border-radius: 20px;
+  padding: 25px 30px 22px 20px;
+  width: 22%;
+  min-width: 240px;
+}
+.div-Medical > span:first-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #0079bf;
+  font-size: 22px;
+}
+.div-Motion {
+  display: flex;
+  flex-direction: column;
+  background-color: #edf3f8;
+  border-radius: 20px;
+  padding: 25px 30px 22px 20px;
+  width: 22%;
+  min-width: 240px;
+}
+.div-Motion > span:first-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #783dbd;
+  font-size: 22px;
+}
+.div-create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 25px 30px 22px 20px;
+  width: 22%;
+  min-width: 240px;
+}
+.createNew{
+  color: #272727;
+  font-size: 16px;
+}
+.bx-message-square-add{
+    padding-right: 10px;
+}

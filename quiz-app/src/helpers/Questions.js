@@ -1,0 +1,42 @@
+export const Questions = [
+  {
+    prompt: "What is React.js?",
+    optionA: "Open - source JavaScript back - end library",
+    optionB: "JavaScript front - end library to create a database",
+    optionC: "Free and open - source JavaScript front - end library",
+    optionD: "None of the mentioned",
+    asnwer: "optionC",
+  },
+  {
+    prompt: "How many numbers of elements a valid react component can return?",
+    optionA: "1",
+    optionB: "2",
+    optionC: "3",
+    optionD: "4",
+    asnwer: "optionA",
+  },
+  {
+    prompt: "What are the two ways to handle data in React?",
+    optionA: "Services & Components",
+    optionB: "State & Services",
+    optionC: "State & Props",
+    optionD: "State & Component",
+    asnwer: "optionC",
+  },
+  {
+    prompt: "What does ES6 stand for?",
+    optionA: "ECMAScript 6",
+    optionB: "ECMA 6",
+    optionC: "ECMAJavaScript 6",
+    optionD: "EJavaScript 6",
+    asnwer: "optionA",
+  },
+  {
+    prompt: "React.js is written in which of the following language?",
+    optionA: "c",
+    optionB: "c++",
+    optionC: "JavaScript",
+    optionD: "Java",
+    asnwer: "optionC",
+  },
+];

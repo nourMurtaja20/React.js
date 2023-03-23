@@ -1,0 +1,18 @@
+.section-categories {
+  display: flex;
+  flex-direction: row;
+padding-bottom: 90px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.section-categories > button {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 16px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}

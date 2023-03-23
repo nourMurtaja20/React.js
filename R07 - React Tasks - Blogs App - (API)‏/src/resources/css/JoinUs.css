@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+.sectionjoin-us {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d968d;
+  color: #ffffff;
+  font-size: 45px;
+  align-items: center;
+  justify-content: center;
+  margin: 73px 250px;
+  padding: 90px 150px;
+  border: 1px solid #707070;
+  border-radius: 7px;
+}
+.sectionjoin-us > p {
+  font-size: 0.6em;
+  padding-bottom: 53px;
+}
+form {
+  display: flex;
+  width: 75%;
+}
+input {
+  display: flex;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.5em;
+  color: #d8d8d8;
+  background-color: #ffffff;
+  padding-left: 20px;
+  width: 100%;
+  outline: none;
+}
+input::placeholder {
+  font-size: 1em;
+  color: #d8d8d8;
+}
+form > button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  right: 32%;
+  font-size: 0.5em;
+  line-height: 33px;
+  color: #ffffff;
+  background-color: #4aaba4;
+  border: none;
+  padding: 16px 0px;
+  width: 15%;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 1300px) {
+  form {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  form > button {
+    position: inherit;
+    width: 100%;
+  }
+  .sectionjoin-us > p {
+    font-size: 0.5em;
+  }
+  .sectionjoin-us {
+    margin: 73px 155px;
+    padding: 90px 100px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .sectionjoin-us {
+    margin: 73px 40px;
+    padding: 90px 20px;
+  }
+  .sectionjoin-us > span {
+    font-size: 0.5em;
+  }
+  .sectionjoin-us > p {
+    font-size: 0.3em;
+  }
+  input::placeholder {
+    font-size: 0.5em;
+  }
+  input {
+    font-size: 0.3em;
+  }
+  form > button {
+    font-size: 0.3em;
+
+  }
+}
